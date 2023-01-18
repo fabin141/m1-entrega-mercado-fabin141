@@ -54,7 +54,12 @@ nav img {
   padding: 16px;
   background: #ffffff;
   box-shadow: 0px 4px 40px -20px rgba(0, 0, 0, 0.25);
+  border: #ffffff solid 2px;
   border-radius: 4px;
+  transition: 0.5s;
+}
+.product:hover{
+  border: black solid 2px;
 }
 
 .product .product-img {
